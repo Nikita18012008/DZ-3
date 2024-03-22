@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+            <nav class="navbar navbar-expand-lg bg-primary bg-opacity-100 mw-100 mx-0 px-0"> 
+                <div class="container-fluid">
+                  <a class="navbar-brand mx-5 " href="#">
+                    <img src="logo.png" alt="">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-around" id="navbarScroll">
+                    <ul class="navbar-nav  my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                      <li class="nav-item mx-4 ">
+                        <a class="nav-link fw-bolder fs-5 text-white btn btn-primary " aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item dropdown mx-4">
+                        <a class="nav-link dropdown-toggle fw-normal fs-5 text-white btn btn-primary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Documentation
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item btn btn-info" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item btn btn-primary" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown mx-4">
+                        <a class="nav-link dropdown-toggle fw-normal fs-5 text-white btn btn-primary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Help Center
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item btn btn-info" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item btn btn-primary" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown mx-4 ">
+                        <a class="nav-link dropdown-toggle fw-normal fs-5 text-white btn btn-primary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item btn btn-info" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item btn btn-primary" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="d-flex mx-5" role="search">
+                      <input class="form-control me-2 border-black border-2 btn btn-light btn-outline-secondary fs-6 fw-semibold" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success btn-warning" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <div class="container mw-100 bg-primary bg-opacity-75 mx-0 w-100 px-0 ">
+            <div class="text-center pt-5">
+                <h1 class="text-white">Powerful Documentaries and Help <br> Center Bootstrap Template. </h1>
+            </div>
+            <div class="d-flex justify-content-center align-items-center mt-4 ">
+                <button class="btn btn-success btn-outline-warning  btn-lg">Purchase Now </button>
+            </div>
+            <div class=" w-50 mt-4 mx-auto">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner ">
+                    <div class="carousel-item active carousel-cont">
+                        <img src="https://img.freepik.com/photos-premium/photo-arbre-seul-dans-paysage-naturel-du-soir_763111-16196.jpg" class="d-block w-100 h-100" alt="...">
+                    </div>
+                    <div class="carousel-item carousel-cont">
+                        <img src="https://png.pngtree.com/thumb_back/fh260/background/20230613/pngtree-an-image-of-a-forest-in-the-clear-water-with-rocks-image_2908357.jpg" class="d-block w-100 h-100" alt="...">
+                    </div>
+                    <div class="carousel-item carousel-cont">
+                        <img src="https://t4.ftcdn.net/jpg/05/60/26/51/360_F_560265123_RW3d2LvLjfwBEp4JmImGj5sudBh88E7v.jpg" class="d-block w-100 h-100" alt="...">
+                    </div>
+                    <div class="carousel-item carousel-cont">
+                        <img src="https://img.freepik.com/free-photo/natures-beauty-reflected-tranquil-mountain-waters-generative-ai_188544-7867.jpg?size=626&ext=jpg&ga=GA1.1.735520172.1710979200&semt=ais" class="d-block w-100 h-100" alt="...">
+                    </div>
+                    <div class="carousel-item carousel-cont">
+                        <img src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg" class="d-block w-100 h-100" alt="...">
+                    </div>
+                    <div class="carousel-item carousel-cont">
+                        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" class="d-block w-100 h-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span >Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span>Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
